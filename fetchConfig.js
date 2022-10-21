@@ -1,7 +1,7 @@
 const fs = require('fs')
 const request = require('request')
 const path = require('path')
-const categoriesDatabaseId = '741a0da234f64a7e8404ae8d433b26e4'
+const categoriesDatabaseId = '1d04aea0c68b437b8f2ad68168e62167'
 
 const envFile = fs.readFileSync(path.join(__dirname, '/.env'), 'utf-8')
 const env = {}
