@@ -20,7 +20,7 @@ export interface Category {
 const WORKER_ENDPOINT = process.env.WORKER_ENDPOINT
 
 export const getItems = async (category?: string) => {
-  let contents: Array<Content> = await fetch(`${WORKER_ENDPOINT}/v1/table/82de766385fc439fbb010d9cf01e075b`).then(
+  let contents: Array<Content> = await fetch(`${WORKER_ENDPOINT}/v1/table/1d04aea0c68b437b8f2ad68168e62167`).then(
     (res) => res.json()
   )
   if (category) return contents.filter((content) => content.Category === category)
