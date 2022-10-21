@@ -1,5 +1,5 @@
 categoriesDatabaseId= 741a0da234f64a7e8404ae8d433b26e4
-
+workers endpoint= 82de766385fc439fbb010d9cf01e075b
 # Awesome Notion Site
 
 ## Getting Started
